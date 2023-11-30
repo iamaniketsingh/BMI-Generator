@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@800&family=Poppins&display=swap");
+
+.container {
+  font-family: "Fira Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  width: 575px;
+  height: 825px;
+  color: white;
+  border: 2px solid white;
+  background-color: #212121a6;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+#height,
+#weight {
+  width: 150px;
+  height: 25px;
+  margin-top: 30px;
+}
+
+#weight-guide {
+  margin-left: 75px;
+  margin-top: 25px;
+}
+
+#results {
+  font-size: 25px;
+  margin-left: 30px;
+  margin-top: 10px;
+  color: rgb(241, 241, 241);
+}
+
+li{
+  margin: 0 20px 10px 0px;
+}
+
+button {
+  background-color: #f8f8f8;
+  border-radius: 100px;
+  box-shadow: rgb(255, 255, 255) 0 -25px 18px -14px inset,
+    rgba(22, 29, 25, 0.815) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+    rgba(0, 0, 0, 0.15) 0 4px 8px, rgba(0, 0, 0, 0.15) 0 8px 16px,
+    rgba(2, 2, 2, 0.15) 0 16px 32px;
+  color: black;
+  cursor: pointer;
+  font-weight: 500;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  margin-left: 38%;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover {
+  box-shadow: rgb(255, 255, 255) 0 -25px 18px -14px inset,
+    rgba(22, 29, 25, 0.815) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+    rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+    rgba(44, 187, 99, 0.15) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+h1 {
+  padding-left: 15px;
+  padding-top: 25px;
+}
+input{
+  border-radius: 10px;
+  outline: none;
+  color: gray;
+   font-family: "Fira Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  text-align: start;
+}
